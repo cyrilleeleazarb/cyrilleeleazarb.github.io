@@ -1,0 +1,137 @@
+.rates-text .bold-txt{
+    font-size: 20px;
+    font-weight: 800;
+    color: #333333;
+}
+.yellow-btn{
+    background: #FEB321;
+    border-radius: 0;
+    padding: 19px 38px !important;
+    margin: 20px 0px;
+}
+.yellow-btn:hover{
+    background: #058FE3;
+    color: #fff;
+}
+.rates-text p{
+    font-size: 20px;
+    clear: #333;
+}
+.rates-text p span{
+    font-weight: 500;
+}
+
+.rates-info{
+    box-shadow: 0 0 30px rgba(234,228,228,0.8);
+    padding: 30px;
+    border-radius: 15px;
+}
+.rates-info p{
+    font-size: 20px;
+    color: #333333;
+    line-height: 36px;
+}
+.rates-content-wrapper{
+    background: #fff;
+    padding: 70px 0;
+    position: relative;
+    margin-top: 100px;
+}
+.rates-content-wrapper:after{
+    content: '';
+    background: #FEB321;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*bottom: 160px;*/
+    min-height: 809px;
+}
+.rates-accordian .card{
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+.rates-accordian .btn-link{
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    color: #333333 !important;
+    font-weight: 800;
+    padding: 18px 20px;
+    background: #F5F5F5;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.rates-accordian .btn-link.collapsed{
+    background: transparent;
+    color: #333 !important;
+    text-transform: uppercase;
+}
+.rates-accordian .btn-link:before {
+    float: right !important;
+    /*font-family: FontAwesome;*/
+    /*content:"\f068";*/
+    content: '';
+    background: url(../images/minus-icon.png) no-repeat center;
+    padding-right: 5px;
+    width: 13px;
+    height: 13px;
+    margin-top: 7px;
+}
+.rates-accordian .btn-link.collapsed:before {
+    float: right !important;
+    /*content:"\f067";*/
+    content: '';
+    background: url(../images/plus-icon.png) no-repeat center;
+}
+.rates-accordian .card-header{
+    border-bottom: 0;
+    padding: 0;
+}
+.rates-accordian .card-body{
+    color: #333;
+    padding: 0 20px 20px;
+    background: #f5f5f5;
+}
+.z-index-1{
+    z-index: 1;
+}
+.pr-30{
+    padding-right: 30px !important;
+}
+.pl-30{
+    padding-left: 30px !important;
+}
+.white-border:after{
+    background: #fff;
+}
+.rates-accordian-white .card{
+    border: 1px solid #fff;
+}
+.rates-accordian-white .btn-link{
+    background: #fff;
+    color: #333333 !important;
+}
+.rates-accordian-white .card-body{
+    color: #fff;
+}
+
+.rates-accordian-white .btn-link.collapsed{
+    background: #fff;
+}
+.rates-accordian-white .card-body{
+    background: #fff;
+    color: #333333   
+}
+.inner-page-title.text-white:before{
+    background: #fff;
+}
+.rates-sml-title{
+    color: #FEB220;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 26px;
+}

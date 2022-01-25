@@ -1,0 +1,268 @@
+@media (min-width: 1200px){
+    .container{
+    	max-width: 1170px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+.about-title .inner-page-title1 {
+    padding-top: 0;
+}
+    
+}
+
+@media (max-width:1199px) {
+	.header-wrapper{
+		padding: 10px 0;
+		background: rgba(5,32,54,0.95);
+	}
+	.navbar-light .navbar-toggler-icon{
+		background:	url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+	}
+	.navbar-light .navbar-toggler {
+	    border-color: rgba(255,255,255,.7);
+	}
+	.navbar-light .navbar-nav .nav-link{
+		padding: 10px 0;
+	}
+	.navbar-light .navbar-nav .nav-item:last-child{
+		position: relative;
+	}
+	.navbar-nav.align-items-center{
+		align-items: flex-start !important;
+		margin-top: 10px;
+	}
+	.navbar-light .navbar-nav .nav-btn{
+		margin: 10px 10px 10px 0px !important;
+	}
+	.banner-img {
+	    min-height: 740px;
+	}
+	footer .media{
+		font-size: 14px;
+	}
+	nav .navbar-collapse{
+		margin-left: 0;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		margin: 0;
+	}
+	.about-front-img {
+		left: 155px;
+	}
+
+}
+@media (max-width:991px) {
+    
+    .about-title .start-page-title {
+       float: none;
+       width: inherit;
+    }
+    
+    .about-title h2:after {
+        content: none;
+    }
+    
+    .nav-tabs .htw-item {
+        width: 100%;
+        margin: 6px 0;
+    }
+    
+    .htw-item .mx-4 {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    
+    .htw-item .mr-4 {
+        margin-right: 0 !important;
+    }
+    
+	.about-wrapper p{
+		padding: 0;
+	}
+    
+	.footer-links li a{
+		margin: 0 10px;
+		font-size: 14px;
+	}
+    
+    .img-shadow, .htw-list {
+        margin-bottom: 30px;
+    }
+    .tab-pane .img-hover-box .img-shadow{
+    	margin-bottom: 0;
+    }
+    .hiw_responsive_top{
+    	margin-top: 10px;
+    }
+    
+	.slider-form{
+		position: relative;
+		max-width: 100%;
+		bottom: 50px;
+		right: 0;
+	}
+	.media.pl-4{
+		padding-left: 0 !important;
+	}
+	footer .media{
+		margin-bottom: 20px;
+	}
+	.rates-content-wrapper:after{
+		/*min-height: 880px;*/
+	}
+	.inner-page-title{
+		font-size: 25px;
+		padding-top: 5px;
+	}
+	.contact-info{
+		padding: 30px 10px;
+	}
+	.about-front-img{
+		    left: 125px;
+	}
+	.start-page-title{
+		font-size: 26px;
+		text-align: left !important;
+	}
+	.inner-page-title1{
+		font-size: 24px;
+		padding-top: 10px;
+	}
+}
+
+@media (max-width:767px) {
+	.banner-wrapper .carousel-caption h1{
+		font-size: 30px;
+	}
+	.slider-txt{
+		padding: 20px;
+	}
+	.banner-wrapper .carousel-caption p {
+	    font-size: 16px;
+	}
+	.banner-wrapper .carousel-caption h1 span{
+		font-size: 34px;
+	}
+	.section-title {
+	    font-size: 30px;
+	}
+	.sub-title {
+	    font-size: 20px;
+	}
+	.mt-80 {
+	    margin-top: 40px;
+	}
+	.how-work-wrapper .mt-30 {
+	    margin-top: 10px;
+	}
+	.process-arrow{
+		max-width: 160px;
+	}
+	.about-blue-bg{
+		height: auto;
+		padding: 70px 0 0;
+	}
+	.yellow-box{
+		padding: 50px 20px;
+	}
+	.yellow-box h5{
+		font-size: 20px;
+	}
+	.yellow-box:after{
+		border-width: 0 67px 64px 0;
+	}
+	.yellow-box p{
+		font-size: 16px;
+	    width: 100%;
+	}
+	footer .col-md-9.text-right{
+		text-align: left !important;
+	}
+	footer {
+	    padding: 50px 0;
+	}
+	.footer-links{
+		margin-top: 30px;
+	}
+	.footer-links li a {
+	    margin: 0 20px 0px 0px;
+	}
+	.rates-content-wrapper:after{
+		content: none;
+		height: auto;
+	}
+	.inner-page-title.text-white:before {
+	    background: #FEB321;
+	}
+	.inner-page-title.text-white{
+		color: #333 !important;
+	}
+	.rates-sml-title.text-white{
+		color: #FEB220 !important
+	}
+	.pr-30{
+		padding-right: 15px !important;
+	}
+	.pl-30{
+		padding-left: 15px !important;
+	}
+	.rates-accordian-white .btn-link.collapsed {
+	    background: #f5f5f5;
+	}
+	.rates-accordian-white .btn-link {
+	    background: #f5f5f5;
+	}
+	.rates-accordian-white .card-body {
+	    background: #f5f5f5;
+	}
+	.inner-banner-wrapper{
+		    min-height: 250px;
+	}
+	.rates-content-wrapper{
+		margin-top: 0;
+	}
+	.about-back-img{
+		margin: 0 auto !important;
+	}
+	.about-back-img img{
+		width: 280px;
+	}
+	.about-front-img img, .about-front-img{
+		width: 180px !important;
+		left: auto;
+	    right: 0;
+
+	}
+	.about-back-img {
+	    width: 280px !important;
+	}
+	.about-img-group{
+		width: 300px;
+    	margin: 0 auto 30px;
+	}
+}
+
+@media (max-width:575px) {
+	.section-title:before, .section-title:after{
+		content: none;
+	}
+	.sub-title:after{
+		content: none;
+	}
+	.banner-img {
+	    min-height: 460px;
+	}
+	section {
+	    padding: 50px 0;
+	}
+	.terms-cond-bg{
+		box-shadow: none;
+		border-left: 0;
+		padding: 20px;
+    	background: #f8fdff;
+	}
+	
+}
